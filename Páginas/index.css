@@ -1,0 +1,139 @@
+html{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(240, 240, 240);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: rgb(235, 235, 235);
+}
+
+.headerLinks {
+    padding: 6px;
+   background-color: rgb(100, 0, 150);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    transition: font-size 0.5s;
+}
+
+.headerLinks:hover{
+    font-size: 20px;
+    color:rgb(100, 0, 150);
+    background-color: rgb(255, 255, 255);
+}
+
+/*input{
+    background-color: rgb(255, 66, 66);
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 12px;
+    transition: font-size 1s;
+}
+*/
+.button{
+    font-size: 18px;
+    transition: font-size 1s;
+    align-items: center;
+    background-color: green;
+}
+.button:hover{
+    font-size: 22px;
+}
+
+/*input:hover{
+    font-size: 14px;
+    background-color: red;
+}*/
+
+.align {
+    text-align: center;
+    padding-top: 200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Importei a fonte "Bebas Neue", usada nos botões */
+.links {
+padding-left: 25px;
+  font-family: "Bebas Neue", sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.alignRedes {
+    text-align: left;
+    width: 500px;
+}
+
+.logo {
+    width: 150px;}
+
+.center {
+    text-align: center;
+}    
+
+.back { text-align: right;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    background-color: rgb(38, 0, 255);
+    border-radius: 6px;
+    transition: font-size 0.5s;
+}
+.back:hover {
+    font-size: 32px ;
+}
+
+.noo{
+    border-radius: 20px; /* Serve exclusivamente pra deixar a Imagem da wikipedia redonda */
+}
+
+.base {
+     display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.content{
+    font-size: 16px; 
+    text-align: center; 
+    padding: 10px;
+    margin: 10px;
+}
+.space{
+    text-align: justify;
+}
+
+.img{
+            height:400px ;
+            margin:2%;
+            float: left;
+        }
+
+.imglist{
+            height: 300px;
+            margin: 2%;
+        }
+
+.texto{
+            font-size: 18px;
+            text-align: justify;
+            margin: 2%;
+            background-color: rgb(12, 15, 6);
+            border-radius:6px;
+            padding: 10px;}
+.alignName{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
